@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Library</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Author</th>
+                <th>Pages</th>
+                <th>Status</th>
+                <th>Change Status</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <button id="new">New Book</button>
+    <dialog>
+        <form id="add">
+            <label for="name">Name:</label>
+            <input id="name" type="text">
+            <label for="author">Author:</label>
+            <input id="author" type="text">
+            <label for="pages">Pages:</label>
+            <input id="pages" type="number">
+            <input id="status" type="checkbox">
+            <label for="status">Read</label>
+            <button>Add</button>
+        </form>
+    </dialog>
+    <script src="./script.js"></script>
+</body>
+</html>
