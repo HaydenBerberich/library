@@ -24,15 +24,22 @@
     </table>
     <button id="new">New Book</button>
     <dialog>
-        <form id="add">
+        <form id="add" novalidate>
             <label for="name">Name:</label>
-            <input id="name" type="text">
+            <input id="name" type="text" required>
+            <span class="error" id="name-error"></span>
+            
             <label for="author">Author:</label>
-            <input id="author" type="text">
+            <input id="author" type="text" required>
+            <span class="error" id="author-error"></span>
+
             <label for="pages">Pages:</label>
-            <input id="pages" type="number">
+            <input id="pages" type="number" required>
+            <span class="error" id="pages-error"></span>
+
             <input id="status" type="checkbox">
             <label for="status">Read</label>
+
             <button>Add</button>
         </form>
     </dialog>

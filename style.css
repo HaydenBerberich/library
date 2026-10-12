@@ -7,3 +7,15 @@ th, td {
   border: 1px solid black;
   padding: 5px;
 }
+
+.error {
+  color: red;
+}
+
+input:user-invalid {
+  border: 2px red solid;
+}
+
+input:user-valid {
+  border: 2px green solid;
+}
